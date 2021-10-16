@@ -1,0 +1,78 @@
+/* css*/
+.menu top{
+    width:100%;height: 80px;
+}
+/* Seletores destacados em vermelho*/
+.menu_top img{
+    float: left;height: 40px;position: relative;top: 20px;left: 20px;
+}
+.menu_top .menu .linkMenu{
+    text-decoration: none;
+    margin: 30px 8px 0px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    color: #000;
+    left: 50%;
+    top: 30px;
+}
+.menu_top .menu .login{
+    background-color:aqua;
+    color: #fff;
+    padding: 10px 12px;
+}
+/* CSS*/
+
+.section-banner-home{
+    width: 100%;
+    height: 500px;
+    padding: 50px;
+    margin: 30px;
+    background-color: #005caa;
+}
+.section-banner-home .texto-banner {
+    margin-top: 30px;
+    font-size: 22px ;
+}
+.section-banner-home .texto-banner h1{
+    font-size: 30px;
+    width:  60px;
+    font-weight: 500;
+    padding-bottom: 20px;
+
+}
+.section-banner-home .texto-banner p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.section-banner-home .texto-banner a{
+    color: #000;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 4px 14px;
+    font-size: 15px;
+}
+/* CSS-galeria */
+.destaque h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+    .destaque p{
+        width: 77%;
+        font-size: 14px;
+        margin: 30px auto;
+
+    }
+    .destaque figcaption{
+        font-size: 13px;
+    }
+    .destaque a{
+        justify-content:  center;
+        display: flex;
+        text-decoration: none;
+        color: #30dcf4;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 30px 0;
+    }
