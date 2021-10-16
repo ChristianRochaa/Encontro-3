@@ -21,7 +21,7 @@
     color: #fff;
     padding: 10px 12px;
 }
-/* CSS*/
+/* CSS banner*/
 
 .section-banner-home{
     width: 100%;
@@ -65,7 +65,7 @@
 
     }
     .destaque figcaption{
-        font-size: 13px;
+        font-size: 20px;
     }
     .destaque a{
         justify-content:  center;
@@ -76,3 +76,47 @@
         font-weight: bold;
         margin: 30px 0;
     }
+    .novidades{
+        background-color: #082373;
+        padding: 50px;
+
+       
+    }
+    .novidades .text-body{
+        width: 80%;
+        margin: 70px auto;
+    }
+    .novidades h2{
+        color: #fff;
+        font-size: 26px;
+        width: 70%;
+
+    }
+.novidades p{
+    color:#fff;
+
+}
+.novidades a{
+    color: #000;
+    text-decoration: none;
+    padding: 6px 12px;
+    background-color: #fff;
+    font-weight: 400;
+}
+.galeria {
+    margin:60px auto  20px;
+}
+.galeria h2{
+    text-align: center;
+    font-size: 24px;
+}
+.galeria p{
+    text-align: center;
+    width: 50%;
+    margin: 14px auto 50px;
+
+}
+.galeria .gallery{
+    width: 30%;
+    margin: 14px auto 50px;
+}
