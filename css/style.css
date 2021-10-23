@@ -87,9 +87,8 @@
         margin: 70px auto;
     }
     .novidades h2{
-        color: #fff;
-        font-size: 26px;
-        width: 70%;
+    font-size: 26px;
+     
 
     }
 .novidades p{
@@ -119,4 +118,35 @@
 .galeria .gallery{
     width: 30%;
     margin: 14px auto 50px;
+}
+/* CSS footer*/
+.rodape {
+    padding: 50px 50px 0;
+}
+.rodape .info-contato p{
+    margin: 0px;
+
+}
+.rodape a{
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+
+}
+.rodape a:hover {
+    font-weight: bold;
+
+}
+.rodape .redesociais {
+    display:inline-block;
+
+}
+.rodape .redes-sociais img{
+    width:45px;
+    height: 40px;
+
+}
+.rodape p .direitos{
+    text-align: center;
+    margin-top:40px;
 }
