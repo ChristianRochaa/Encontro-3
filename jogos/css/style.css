@@ -1,16 +1,16 @@
 /* css*/
-.menu top{
-    width:100%;height: 80px;
+.menu_top{
+    width: 100%; height:80px;
 }
 /* Seletores destacados em vermelho*/
 .menu_top img{
-    float: left;height: 40px;position: relative;top: 20px;left: 20px;
+    float: left; height:40px; position:relative; top:20px; left:20px;
 }
 .menu_top .menu .linkMenu{
     text-decoration: none;
     margin: 30px 8px 0px;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:  'Montserrat';
     position: relative;
     color: #000;
     left: 50%;
@@ -27,16 +27,19 @@
     width: 100%;
     height: 500px;
     padding: 50px;
-    margin: 30px;
+    margin: 30px auto;
     background-color: #005caa;
 }
+.section-banner-home img{
+    height: 400px;
+}
 .section-banner-home .texto-banner {
-    margin-top: 30px;
+    margin-top: 100px;
     font-size: 22px ;
 }
 .section-banner-home .texto-banner h1{
     font-size: 30px;
-    width:  60px;
+    width:  60%;
     font-weight: 500;
     padding-bottom: 20px;
 
@@ -60,6 +63,7 @@
 }
     .destaque p{
         width: 77%;
+        text-align: center;
         font-size: 14px;
         margin: 30px auto;
 
