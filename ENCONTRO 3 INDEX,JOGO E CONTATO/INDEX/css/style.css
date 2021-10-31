@@ -201,4 +201,12 @@
     border:none;
     cursor: pointer;
 }
-.btnconta
+.btncontactsubmit{
+width:50%;
+border-radius: 1rem;
+padding:1.5%;
+color:#fff;
+background-color:blue;
+border:none;
+cursor:pointer;
+}
