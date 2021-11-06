@@ -289,3 +289,14 @@ nav{
     border: none;
     cursor: pointer;
 }
+
+.btncontactsubmit{
+width:50%;
+border-radius: 1rem;
+padding:1.5%;
+color:#fff;
+background-color:blue;
+border:none;
+cursor:pointer;
+}
+
