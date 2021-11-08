@@ -1,5 +1,5 @@
-class monilenavbar {
-    construtor(monilemenu,navlist, navlinks) {
+class mobilenavbar {
+    construtor(mobilemenu,navlist, navlinks) {
         this.mobilemenu = document.querySelector(this.mobilemenu);
         this.navlist = document.querySelector(navlist);
         this.navlinks = document.querySelectorAll(navlinks)
