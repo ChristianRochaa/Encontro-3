@@ -11,15 +11,22 @@ a {
 a:hover {
     background: rgba(0, 0, 0, 0.5);
 
+
 }
-#logo {
-    font-size: 1.5rem;
+#logo img {
+    float: left;
+    height: 100%;
+    position:relative;
+    top: 0px;
+    left: 0px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 30px; 
 }
 #header {
     width: 100%;
     position:fixed;/*adicionado position e z-index*/
     z-index:90;
-
     box-sizing: border-box;
     height:70px;
     padding: 1rem;
@@ -116,7 +123,7 @@ a:hover {
 
 .section-banner-home{
     width: 100%;
-    height: 300px;
+    height: 500px;
     padding: 50px;
     margin: 30px auto;
     background-color: #005caa;
@@ -133,8 +140,12 @@ a:hover {
     width:  60%;
     font-weight: 500;
     padding-bottom: 20px;
-
 }
+    .h2{
+        background-color: #005caa;
+
+    }
+
 .section-banner-home .texto-banner p{
     font-size: 15px;
     margin-bottom: 20px;
