@@ -56,7 +56,7 @@ a:hover {
     padding-bottom:0px;
     /*padding: 1rem 0;*/
     margin:0 1rem;
-    border-bottom:2px solid rgba(0, 0, 0, 0.5);
+    border-bottom:2px solid rgba(0, 0, 0, 0);
 }
 #nav.active #menu {
     height: calc(100vh - 70px);
@@ -94,11 +94,11 @@ a:hover {
 
 }
 #nav.active #hamburger::before {
-    transition: rotate(135deg);
+    transform: rotate(135deg);
 }
 #nav.active #hamburger::after{
-    transition: rotate(135deg);
-    /*top:  -7px;*/
+    transform: rotate(-135deg);
+    top:  -7px;
 }
 } 
 /* CSS banner*/

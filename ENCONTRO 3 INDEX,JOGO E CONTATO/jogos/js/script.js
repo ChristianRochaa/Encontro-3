@@ -1,36 +1,17 @@
-class mobilenavbar {
-    construtor(mobilemenu,navlist, navlinks) {
-        this.mobilemenu = document.querySelector(this.mobilemenu);
-        this.navlist = document.querySelector(navlist);
-        this.navlinks = document.querySelectorAll(navlinks)
-        this.activeclass = "active";
+const btnmobile = document.getElementById('btn-mobile');
 
-        this.handleclick = this.handleclick.bind(this);
-
-    }
-    animatedlinks(){
-        this.navlinks.forEach((links, index) => {
-            links.style.animation
-            ?(link.style.animation ="")
-            : (link.style.animation = `navlinkfade 0.5sease forward $ {
-                index / 7 + 0.3
-            }s`);
-
-            });
-        }
-        handleclick() {
-            this.navlist.classlist.toggle(this.activeclass);
-            this.monilemenu.classlist.toggle(this.activeclass);
-            this.animatedlinks();
-
-        }
-        addclickevent() {
-            this.mobilemenu.addeventlistener("click", this.handleclick);
-        }
-        init() {
-            if (this.mobilemenu ) {
-                this.addclickevent();
-            }
-            return this;
-        }
-    }
+function togglemenu(event) {
+  if (event.type ==='touchstart') event.preventDefault();
+  const nav = document.getElementById('nav');
+  nav.classList.toggle('active');
+  const active= nav.classList.contains('active');
+  event.currentTarget.setattribute('aria-expanded', active);
+  if(active) {
+    event.currentTarget.setAttribute('aria-label', 'Fechar Menu');
+  } else {
+    event.currentTarget.setAttribute('aria-label', 'Abrir Menu');
+  }
+  } 
+  
+btnmobile.addEventListener('click', togglemenu);
+btnmobile.addEventListener('touchstart', togglemenu);
