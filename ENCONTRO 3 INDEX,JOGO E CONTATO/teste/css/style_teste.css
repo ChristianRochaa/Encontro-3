@@ -16,6 +16,9 @@ a:hover {
     font-size: 1.5rem;
 }
 #header {
+    width: 100%;
+    position:fixed;/*adicionado position e z-index*/
+    z-index:90;
     box-sizing: border-box;
     height:70px;
     padding: 1rem;
@@ -34,6 +37,12 @@ a:hover {
 
 #btn-mobile {
     display: none;
+}
+    #carouselExampleInterval{
+        position: relative;
+        z-index: 10;
+        padding-top: 80px;
+      
 
 }
 @media (max-width: 600px){
@@ -49,12 +58,12 @@ a:hover {
     height: 0px;
     padding-left: 5px;
     visibility: hidden;
-    overflow-y: hidden;
+    overflow-y: hidden; /*barra de rolagem se mudar hidden*/
 }
 #menu li {
     padding-top: 30px;
     padding-bottom:0px;
-    /*padding: 1rem 0;*/
+    padding: 1rem 0;
     margin:0 1rem;
     border-bottom:2px solid rgba(0, 0, 0, 0);
 }
@@ -71,17 +80,18 @@ a:hover {
     background: none;
     cursor:pointer;
     gap:0.5rem;
+    border: none; /* tirar bordar do x*/
 }
 #hamburger {
     border-top :2px solid;
-    width: 20px;
+    width: 25px; /* mudar */
 
 }
 #hamburger::after,
 #hamburger::before {
     content:'';
     display: block;
-    width: 20px;
+    width: 25px;
     height: 2px;
     background: currentColor;
     margin-top: 5px;
