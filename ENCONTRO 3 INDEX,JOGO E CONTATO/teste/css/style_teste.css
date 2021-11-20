@@ -16,9 +16,12 @@ a:hover {
     font-size: 1.5rem;
 }
 #header {
+<<<<<<< HEAD
     width: 100%;
     position:fixed;/*adicionado position e z-index*/
     z-index:90;
+=======
+>>>>>>> 986c9d258929b12a917b7396cb8e04d8dbf69620
     box-sizing: border-box;
     height:70px;
     padding: 1rem;
@@ -37,12 +40,15 @@ a:hover {
 
 #btn-mobile {
     display: none;
+<<<<<<< HEAD
 }
     #carouselExampleInterval{
         position: relative;
         z-index: 10;
         padding-top: 80px;
       
+=======
+>>>>>>> 986c9d258929b12a917b7396cb8e04d8dbf69620
 
 }
 @media (max-width: 600px){
@@ -58,14 +64,24 @@ a:hover {
     height: 0px;
     padding-left: 5px;
     visibility: hidden;
+<<<<<<< HEAD
     overflow-y: hidden; /*barra de rolagem se mudar hidden*/
+=======
+    overflow-y: hidden;
+>>>>>>> 986c9d258929b12a917b7396cb8e04d8dbf69620
 }
 #menu li {
     padding-top: 30px;
     padding-bottom:0px;
+<<<<<<< HEAD
     padding: 1rem 0;
     margin:0 1rem;
     border-bottom:2px solid rgba(0, 0, 0, 0);
+=======
+    /*padding: 1rem 0;*/
+    margin:0 1rem;
+    border-bottom:2px solid rgba(0, 0, 0, 0.5);
+>>>>>>> 986c9d258929b12a917b7396cb8e04d8dbf69620
 }
 #nav.active #menu {
     height: calc(100vh - 70px);
@@ -80,18 +96,29 @@ a:hover {
     background: none;
     cursor:pointer;
     gap:0.5rem;
+<<<<<<< HEAD
     border: none; /* tirar bordar do x*/
 }
 #hamburger {
     border-top :2px solid;
     width: 25px; /* mudar */
+=======
+}
+#hamburger {
+    border-top :2px solid;
+    width: 20px;
+>>>>>>> 986c9d258929b12a917b7396cb8e04d8dbf69620
 
 }
 #hamburger::after,
 #hamburger::before {
     content:'';
     display: block;
+<<<<<<< HEAD
     width: 25px;
+=======
+    width: 20px;
+>>>>>>> 986c9d258929b12a917b7396cb8e04d8dbf69620
     height: 2px;
     background: currentColor;
     margin-top: 5px;
@@ -104,11 +131,19 @@ a:hover {
 
 }
 #nav.active #hamburger::before {
+<<<<<<< HEAD
     transform: rotate(135deg);
 }
 #nav.active #hamburger::after{
     transform: rotate(-135deg);
     top:  -7px;
+=======
+    transition: rotate(135deg);
+}
+#nav.active #hamburger::after{
+    transition: rotate(135deg);
+    /*top:  -7px;*/
+>>>>>>> 986c9d258929b12a917b7396cb8e04d8dbf69620
 }
 } 
 /* CSS banner*/
